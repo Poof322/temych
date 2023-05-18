@@ -1,21 +1,58 @@
+
 body{
-    background: no-repeat;
+       background: no-repeat;
        background-color: black;
        margin: 0;
        padding: 0;
-       background-image: url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
+       background-image: 
+       url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
        background-repeat: no-repeat;
-       background-position: auto;
+       background-position: center;
        background-size: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+  
+  .boxcard-link:hover {
+    fill: #ffffff;
+    background-color: #2196f3;
+  }
+
+.list{
+    display: flex;
+    margin: 10px 300px;
+
+}
+
+.header{
+    display: flex;
+   height: 50px;
+   width: 200px;
+   margin-bottom: 10px;
+}
+
+.link{
+    color: aliceblue;
+    font-family: 'Rubik Gemstones', cursive;
+  
 }
 
 .hero__div{
     width: 1200px;
     max-width: 1200px;
+    height: 100%;
+    margin:auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:  auto;
     color: azure;
 }
 
@@ -25,8 +62,7 @@ body{
     display: block;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    color: azure;
+    margin:auto;
 }
 
 .hero__album{
@@ -35,57 +71,32 @@ body{
     margin-top: 50px;
     align-items: center;
     justify-content: center;
-}
-
-
-.hero__button-first{
-    width: 300px;
-    height: 50px;
-    background-image: url(../images/ОБЛОГА3000на3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:300%;
-    color: aquamarine;
-    font-family: 'Rubik Gemstones', cursive;
-    
-}
-
-.hero__button-second{
-    width: 300px;
-    height: 50px;
-    background-image: url(../images/TEMYCH_MALLY_Pill.jpg);
-    color:cornflowerblue;
-    font-family: 'Rubik Gemstones', cursive;
-}
-
-.hero__button-thirty{
-    width: 300px;
-    height: 50px;
-    background-image: url(../images/TEMYCH_MALLY_Pill.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #faea07;
-    font-family: 'Rubik Gemstones', cursive; 
+   
 }
 
 .button-links{
     margin-top: 0;
 }
 
-button{
+.hero__button-first{
+    width: 300px;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Rubik Gemstones', cursive;
     margin-top: 5px;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, 0);
-    transition: background-color 250ms;
+    transition: color 250ms, background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button:hover{
-    background-color: #0d586b;
-    cursor: pointer;
-    transition: background-color 255ms;
+
+.hero__button-first:hover{
+    color:red;
+    background-color: darkred;
+    transition: color 250ms ,background-color 255ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
     content: "";
 }
 
@@ -134,3 +145,22 @@ button:hover{
     width: 290px;
     height: 50px;  
   }
+
+button{
+    background-color: #096b8600;
+    border-radius: 5% ;
+    border-color: #096b8600;
+    margin-bottom: 10px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+button:hover{
+    background-color: #0ae9c47e;
+    border-radius: 5px;
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    content: "";
+}
